@@ -1,0 +1,12 @@
+<div class="page-header">
+    <h1>Blog <small>using Node + Express!</small></h1>
+</div>
+
+
+{{#each entries}}
+<div class="entry">
+    <a href="/article/{{id}}">{{title}}</a>
+    <br>
+    Published: {{published}}
+</div>
+{{/each}}
